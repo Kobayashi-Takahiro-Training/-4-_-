@@ -1,8 +1,8 @@
-#　課題レポート10
+# 課題レポート10
 
 原画像を村上宗隆.jpgを白黒濃淡にした画像とする．これを図1とする．
 
-![原画像](https://github.com/Kobayashi-Takahiro-Training/FILE/blob/master/kadai3.jpg)  
+![原画像](https://github.com/Kobayashi-Takahiro-Training/FILE/blob/master/kadai3_0.jpg)  
 図1 原画像
 
 この画像をプレウィット法，ソベル法，キャニー法でエッジ抽出を行う．
@@ -24,10 +24,10 @@ IMG = edge(ORG,'canny'); % エッジ抽出（キャニー法）
 
 プレウィット法およびソベル法は図5，6のようになっている．
 
-![原画像](https://github.com/Kobayashi-Takahiro-Training/FILE/blob/master/プレウィット.png)  
+![原画像](https://github.com/Kobayashi-Takahiro-Training/FILE/blob/master/プレウィット.PNG)  
 図5 プレウィット法
 
-![原画像](https://github.com/Kobayashi-Takahiro-Training/FILE/blob/master/ソベル.png)  
+![原画像](https://github.com/Kobayashi-Takahiro-Training/FILE/blob/master/ソベル.PNG)  
 図6 ソベル法
 
 横方向をX軸，縦方向をY軸と定義され，ソベル法は中心画素が強調されるようになっているためプレウィット法よりもはっきりとした輪郭が抽出される．
