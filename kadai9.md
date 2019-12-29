@@ -1,7 +1,7 @@
 # 課題9レポート
 原画像を「村上宗隆.jpg」とする．原画像を図1に示す．
 
-![原画像](https://github.com/Kobayashi-Takahiro-Training/FILE/blob/master/kadai3.jpg)  
+![原画像](https://github.com/Kobayashi-Takahiro-Training/FILE/blob/master/kadai3_0.jpg)  
 図1 原画像
 
 この原画像に
@@ -34,10 +34,10 @@ IMG = filter2(f,IMG,'same'); % フィルタの適用
 
 によって行われる．これによって得られた結果を図6に示す．
 
-![原画像](https://github.com/Kobayashi-Takahiro-Training/FILE/blob/master/平滑化フィルタ.png)  
+![原画像](https://github.com/Kobayashi-Takahiro-Training/FILE/blob/master/平滑化フィルタ.PNG)  
 図5 平滑化フィルタ
 
-![原画像](https://github.com/Kobayashi-Takahiro-Training/FILE/blob/master/先鋭化.png)  
+![原画像](https://github.com/Kobayashi-Takahiro-Training/FILE/blob/master/先鋭化.jpg)  
 図6 先鋭化フィルタ
 
 この画像は全体的に灰色になっている．これは図5からも分かるように中央画素の4近傍がマイナスになっており，あまり大きな画素値にならないためである．
